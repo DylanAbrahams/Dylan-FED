@@ -15,17 +15,21 @@
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
+	--primary-color:blue;
+	--default-color:#b44141;
 	--color-background:#eee;
 }
 
 
+body {
+	background-color: var(--color-background);
+}
 
+h1 {
+	color: var(--primary-color)
+}
 
-
-/****************/
-/* JOUW STYLING */
-/****************/
-
-/* jouw code */
+p {
+	color: var(--default-color);
+}
 
