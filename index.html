@@ -1,21 +1,116 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="nl">
-	
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="author" content="jouw naam">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
 	<title>Howdy FED2324</title>
-	
 	<link href="styles/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
 <body>
-	<h1>Een site</h1>
-	<p>Yoo, welkom op de site</p>
+	<header>
+		<nav>
+			<a href="#"><img src="images/HomeButton.png" alt="Home Icon"></a>
+			<ul>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Community</a></li>
+				<li><a href="#">Bullied Button</a></li>
+				<li><a href="#">Monster School</a></li>
+				<li><a href="#">Resources</a></li>
+				<li><a href="#"><img src="images/logoInstagram.png" alt="Instagram Icon"></a></li>
+				<li><a href="#"><img src="images/logoTikTok.png" alt="TikTok Icon"></a></li>
+				<li><a href="#"><img src="images/logoYouTube.png" alt="YouTube Icon"></a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section>
+			<img src="images/logo.png" alt="logo">
+			<h1>A CAMPAIGN TO ADDRESS RACE-BASED BULLYING</h1>
+			<p>Racial stereotypes, mean jokes, and calling folks names has never been ok. But bullying happens so often
+				and in so many different ways, it can start to feel almost normal.</p>
+			<p>We're looking to change the narrative. We need your help to Right Our Story.</p>
+			<p>We need your stories of bullying—whether you watched it happen, were on the receiving end, or even were
+				the bully (it happens, but we're all here to learn).</p>
+			<p>These stories will be shared anonymously (unless you say it's okay to use your first name) to show how
+				all of us have experienced bullying in one way or another—and give us a path forward to dismantle
+				bullying in our everyday lives. With your input, we can write a better story, together.</p>
+		</section>
+		<section>
+			<nav>
+				<ul>
+					<li><button><a href="#"><img src="images/4waysCommunity.png" alt="Hands Shaking"> Join The
+								Community</a></button></li>
+					<li><button><a href="#"><img src="images/4waysShare.png" alt="Chat Bubble"> Share Your
+								Story</a></button></li>
+					<li><button><a href="#"><img src="images/4waysFollow.png" alt="Join Icon"> Follow The
+								Movement</a></button></li>
+					<li><button><a href="#"><img src="images/4waysBulliedButton.png" alt="Bullied Button"> Share The
+								Bullied Button</a></button></li>
+				</ul>
+			</nav>
+		</section>
+		<section>
+			<h2>Help Right Our Story by Sharing Yours</h2>
+			<p>We need your story to add to the conversation around race-based bullying. As a storytelling campaign
+				geared towards shifting the narrative and fostering a collective responsibility to address bullying in
+				our communities, we want to learn about your personal, first-hand experiences. Your story can give hope
+				to others when they can see themselves in your shoes and know they're not alone.</p>
+			<p>So we need your story - join the movement to create a world without bullying.</p>
+			<p>Share how you've experienced bullying. Share how you've seen bullying happen in your school or community.
+				Or share how you may have bullied someone else.</p>
+			<p>We'll use these stories in the Right Our Story campaign to illustrate how we're all impacted by bullying.
+				This campaign is youth-led, so we need your stories, in your voice.</p>
+			<p>It doesn't need to be perfect. It's powerful because it's personal, it's yours.</p>
+			<a href="#"><button>Start</button></a>
+		</section>
+		<section>
+			<ul>
+				<li><img src="images/Story1.png" alt="story"></li>
+				<li><img src="images/Story2.png" alt="story"></li>
+				<li><img src="images/Story3.png" alt="story"></li>
+				<li><img src="images/Story4.png" alt="story"></li>
+				<li><img src="images/Story5.png" alt="story"></li>
+				<li><img src="images/Story6.png" alt="story"></li>
+				<li><img src="images/Story7.png" alt="story"></li>
+			</ul>
+			<button>Left</button>
+			<button>Right</button>
+		</section>
+	</main>
+	<footer>
+		<p>Join the Movement on Social</p>
+		<nav>
+			<ul>
+				<li><a href="#"><img src="images/InstagramIcon.png" alt="Instagram Icon"></a></li>
+				<li><a href="#"><img src="images/TikTokIcon.png" alt="TikTok Icon"></a></li>
+				<li><a href="#"><img src="images/YouTubeIcon.png" alt="YouTube Icon"></a></li>
+			</ul>
+		</nav>
+		<p>Subscribe for Updates</p>
+		<form id="subscribeForm" action="subscribe.php" method="POST">
+			<label for="name">First Name</label>
+			<input type="text" id="name" name="name">
+
+			<label for="email">Email</label>
+			<input type="email" id="email" name="email" required>
+
+			<p>Right Our Story needs the contact information you provide to us to contact you about our campaigns and
+				community. You may unsubscribe from these communications at any time. For information on how to
+				unsubscribe and our privacy practices and commitment to protecting your privacy, please review our
+				Privacy Policy.</p>
+
+			<input type="submit" value="Subscribe">
+		</form>
+		<ul>
+			<li><a href="#">CONTACT US AT hello@rightourstory.com</li>
+			<li><a href="#">PRIVACY POLICY</li>
+		</ul>
+	</footer>
 	<script defer src="scripts/script.js"></script>
 </body>
-	
+
 </html>

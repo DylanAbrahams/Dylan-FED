@@ -15,9 +15,11 @@
 /*********************/
 :root {
 	/* startje */
-	--primary-color:blue;
-	--default-color:#b44141;
-	--color-background:#eee;
+	--default-color:rgb(216, 216, 216);
+	--link-color:rgb(255, 94, 0);
+	--header-background:rgb(115, 12, 6);
+	--color-background:#200000;
+	--footer-background:black;
 }
 
 
@@ -25,11 +27,65 @@ body {
 	background-color: var(--color-background);
 }
 
-h1 {
-	color: var(--primary-color)
+h1, h2 {
+	color: var(--default-color)
 }
 
 p {
 	color: var(--default-color);
 }
 
+ul {
+	list-style-type:none;
+}
+
+a, a:visited {
+	text-decoration:none;
+	color: var(--link-color)
+}
+
+header {
+	background-color: var(--header-background);
+	top:0%;
+	left:0%;
+	width:100%;
+	position:fixed;
+}
+
+header nav {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+header nav ul {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+}
+
+header nav ul li {
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+
+header nav ul img {
+	height:30px;
+	width:30px;
+}
+
+img {
+	height:100px;
+	width:100px;
+}
+
+footer {
+	background-color:var(--footer-background);
+	left:0%;
+	bottom:0%;
+	width:100%;
+}
+
+main {
+	padding-top:10em;
+}
