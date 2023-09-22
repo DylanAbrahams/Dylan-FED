@@ -13,6 +13,16 @@
 	src: url(../fonts/_Xms-HUzqDCFdgfMm4S9DQ.woff2) format("woff2")
 }
 
+@font-face {
+	font-family: "grey-bear";
+	src: url(../fonts/GREY+BEAR.otf) 
+}
+
+@font-face {
+	font-family: "normal";
+	src: url(../fonts/normal) 
+}
+
 
 /**************/
 /* CSS REMEDY */
@@ -33,7 +43,7 @@
 /*********************/
 :root {
 	/* startje */
-	--default-color: rgb(216, 216, 216);
+	--default-color: #ffeacc;
 	--link-color: rgb(black);
 	--header-background: rgb(115, 12, 6);
 	--color-background: #200000;
@@ -44,7 +54,7 @@
 
 body {
 	background-color: var(--color-background);
-	
+	background-image: url(/images/background.jpg)
 }
 
 
@@ -52,11 +62,12 @@ body {
 h1,
 h2 {
 	color: var(--default-color);
-	font-family:"itim-regular";
+	font-family:"grey-bear";
 }
 
 p {
 	color: var(--default-color);
+	font-family:"normal";
 }
 
 ul {
