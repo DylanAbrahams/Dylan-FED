@@ -47,7 +47,7 @@
 	--link-color: black;
 	--header-background: rgb(115, 12, 6);
 	--color-background: black;
-	--nav-color: rgb(255, 94, 0);
+	--nav-color: rgb(255, 81, 0);
 }
 
 
@@ -64,7 +64,7 @@
 
 body {
 	background-color: var(--color-background);
-	background-image: url(/images/background.jpg);
+	background-image: url(../images/background.jpg);
 	background-size: cover;
 	background-position-y: -53.5em;
 	background-repeat: no-repeat;
@@ -309,7 +309,7 @@ main>div:nth-of-type(2) {
 main>div:nth-of-type(2)>section {
 	display: flex;
 	flex-wrap: nowrap;
-	background-image: url(/images/miniBackground.png);
+	background-image: url(../images/miniBackground.png);
 	width: 80%;
 	height: 25em;
 	border-radius: 10px;
@@ -326,10 +326,14 @@ main>div:nth-of-type(2)>section h2 {
 }
 
 main>div:nth-of-type(2)>section:nth-of-type(1) a {
+	font-family: "itim-latin";
 	display: block;
 	background-color: var(--nav-color);
-	padding: 1em;
+	color:var(--link-color);
+	padding:.5em 1em;
 	text-align: center;
+	border-radius:8px;
+	font-size:1.5em;
 }
 
 main section:nth-of-type(2) ul {
@@ -407,6 +411,7 @@ input[type="submit"] {
 	border: none;
 	border-radius: 5px;
 	cursor: pointer;
+	justify-self: center;
 }
 
 input[type="submit"]:hover {
@@ -518,7 +523,7 @@ footer>ul {
 	main>div:nth-of-type(2)>section {
 		display: flex;
 		flex-wrap: nowrap;
-		background-image: url(/images/miniBackground.png);
+		background-image: url(../images/miniBackground.png);
 		width: 50%;
 		height: 25em;
 		border-radius: 10px;
