@@ -19,3 +19,21 @@ closeButton.onclick = closeMenu;
 function closeMenu() {
   navigatie.classList.remove("toonMenu")
 }
+
+
+
+
+// HEADER DIE VERANDERD ALS JE SCROLLT
+
+const header = document.querySelector("header");
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 10) { 
+        console.log("kleur")
+        header.classList.add("scrolled");
+    } else {
+      console.log("transparent")
+        header.classList.remove("scrolled");
+    }
+});
+
