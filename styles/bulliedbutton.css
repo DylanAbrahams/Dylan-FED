@@ -1,0 +1,282 @@
+body {
+    background-color: var(--color-background);
+    background-image: url(../images/bulliedbackground.jpg);
+    background-size: cover;
+    background-position-x: -50em;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: var(--bullied-h1);
+    font-family: "grey-bear";
+    font-size: 3em;
+    letter-spacing: .1em;
+    margin:0;
+    text-align: center;
+}
+
+h2 {
+    color: var(--bullied-h2);
+    font-family: "itim-latin";
+    font-size: 1.5em;
+    text-align:center;
+}
+
+p {
+    color: var(--default-color);
+    font-family: "normal";
+    font-size:1.2em;
+    margin:0;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: var(--default-color);
+    cursor: pointer;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+header.scrolled {
+    background-color: var(--bullied-header-background);
+    transition: 0.3s ease;
+}
+
+main {
+    padding-top: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5em;
+}
+
+main section:nth-of-type(1) {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:80%;
+}
+
+main section:nth-of-type(1) h2{
+    color:var(--default-color);
+    font-size:2em;
+    text-align:center;
+}
+
+main section:nth-of-type(1) img{
+    width:15em;
+    height:auto;
+    animation: scaleAnimation 1s ease infinite alternate;
+    animation-play-state: paused;
+    margin:1em 0;
+}
+
+main section:nth-of-type(1) button{
+    background-color: var(--default-color); 
+    color: var(--link-color); 
+    padding: .5em 1em;
+    font-size:1em;
+    border: none; 
+    border-radius:.5em;
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+main section:nth-of-type(1) button:hover{
+    background-color: var(--bullied-h2); 
+}
+
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1); /* Increase the scale factor to make it scale more */
+    }
+}
+
+main section:nth-of-type(2) {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    gap:1em;
+    width: 85%;
+}
+
+main section:nth-of-type(3) {
+    display:flex;
+    flex-direction:column;
+    width:90%;
+    align-items:center;
+    justify-content:center;
+    gap:1em;
+    color:var(--default-color)
+}
+
+
+main section:nth-of-type(3)>ul li{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    text-align: center;
+    gap:1em;
+}
+
+
+main section:nth-of-type(3)>ul li>ul li:nth-of-type(1){
+    font-weight:bold;
+    font-size:1.5em;
+}
+
+main section:nth-of-type(3)>ul li>ul li:nth-of-type(2){
+    font-size:1.2em;
+    font-style: italic;
+}
+
+main section:nth-of-type(3) p{
+    width:90%;
+    padding:2em 0;
+    text-align:center;
+}
+
+main section:nth-of-type(3) a{
+    font-size:1.5em;
+    font-weight:bold;
+    text-decoration:underline;
+}
+
+main section:nth-of-type(4) {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    width:80%;
+    text-align:center;
+}
+
+
+main section:nth-of-type(4) > ul{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+main section:nth-of-type(4) > ul li > ul{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    color:var(--default-color)
+}
+
+main section:nth-of-type(4) > ul li ul li img{
+    height: 15em;
+    width:auto;
+    margin:2em 0 0 0;
+}
+
+main section:nth-of-type(4) > ul li > ul li:nth-of-type(2){
+    font-weight: bold;
+    font-size:1.5em;
+}
+
+main section:nth-of-type(4) > ul li > ul li:nth-of-type(3){
+    text-align:center;
+    font-size:1.3em;
+    width:90%;
+}
+
+main section:nth-of-type(4) > ul li > ul li:nth-of-type(4){
+    background-color:var(--default-color);
+    margin:1em 0;
+    border-radius:.5em;
+    font-size:1.1em;
+    transition:0.3s;
+}
+
+main section:nth-of-type(4) > ul li > ul li:nth-of-type(4):hover{
+    opacity: 70%;
+}
+
+main section:nth-of-type(4) > ul li > ul li:nth-of-type(4) a{
+    color:var(--link-color);
+    padding:0em 4em;
+}
+
+/* DESKTOP */
+@media (width > 38em) {
+    body {
+        color: var(--default-color);
+        background-position-y: -9.2em;
+        background-position-x: 0;
+    }
+
+    h1 {
+        font-size:4em;
+        letter-spacing:.2em;
+    }
+
+    h2 {
+        font-size:2em;
+    }
+
+    main {
+        margin-top:15em;
+    }
+
+    main section:nth-of-type(1) h2{
+        font-size:2.5em;
+    }
+
+    header nav ul li a,
+    header nav ul li a:visited {
+        color: var(--default-color)
+    }
+
+    main section:nth-of-type(1) img{
+        width:30em;
+    }
+
+    main section:nth-of-type(2) {
+        width:65%;
+    }
+
+    main section:nth-of-type(3)>ul li{
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        text-align: center;
+        gap:1em;
+    }
+
+    main section:nth-of-type(4) > ul{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-between;
+    }
+
+
+    main section:nth-of-type(4) > ul li ul li img{
+        height: 10em;
+        width:auto;
+        margin:2em 0;
+    }
+
+    main section:nth-of-type(4) > ul li > ul li:nth-of-type(3){
+        width:40%;
+    }
+
+    main section:nth-of-type(4) > ul li > ul li:nth-of-type(4){
+        font-size:1.5em;
+    }
+}
