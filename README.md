@@ -16,7 +16,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor kick-off werkgroep</summary>
 
   ### Auteur:
-  Sanne 't Hooft (vervangen door jouw naam)
+  Dylan Abrahams
 
   #### Je startniveau:
   Rood
@@ -40,11 +40,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Homepagina.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Bullied Button
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  <img src="readme-images/Bulliedpagina.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -57,6 +57,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
+  - HTML is niet gevalidate
+  - Focus werkte, maar alleen op windows
+  - Er was weinig gebruik gemaakt van ul li's
+  - Afbeeldingen hadden geen alt
+  - Ik moet afbeeldingen met tekst, de tekst in de alt zetten
+  - Animatie moet op pauze gezet kunnen worden
+  - Media mag niet vanzelf afspelen
+  - Er is geen button element gebruikt
+  - Er is geen skip link
+  - Dark mode wordt niet gesupport
+  - Grote tekst wordt niet gesupport
+  - Kleurcontrast klopt
 
 </details>
 
@@ -70,11 +82,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### de hele pagina: 
   <img src="readme-images/Breakdown_Schets.png" width="375px" alt="breakdown van de hele pagina">
 
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
 
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -90,6 +98,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  
 
   ### Agenda voor meeting
   samen met je groepje opstellen
