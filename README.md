@@ -98,7 +98,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
-  
+  - Ik loop lekker op schema
+  - Ik heb niet echt vragen voor de meeting, maar ik denk dat ik ter plekke wel vragen zal hebben.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -112,11 +113,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik moet een aantal sections veranderen naar divs
+  - Ik heb voor mijn afbeeldingen lijst een caroucel nodig
+  - Mijn CSS ziet er goed uit
+  - Mijn HTML is ook goed qua ul li's, headings enz..
+  - Je mag (of moet eigenlijk) meerdere stylepaginas gebruiken
 
 </details>
 
@@ -132,6 +133,13 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
 
+  - Ik heb mijn homepagina zo goed als af
+  - De navigatie werkt op mobiel
+  - Ik heb nog maar 1 style pagina, die moet ik opdelen in 2
+  - Alles lijkt me (hoe ik het nu zie) duidelijk wat ik moet doen
+  - Ik moet nog de tweede pagina doen
+
+
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -146,10 +154,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - Ik was niet aan de beurt geweest
+  - Deze meeting was met Sanne, er werden veel voorbeelden laten zien,
+  - Ik moet mijn pixels naar ems veranderen
+  - Ik moet meer percentages gebruiken voor width
+  - ik moet gap gebruiken bij flexbox in plaats van margin/padding
 
 </details>
 
@@ -164,6 +173,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  - Mijn site is goedgekeurd door de HTML validator
+  - De focus states werken, ik moet alleen een border toevoegen zodat het ook buiten windows werkt
+  - Mijn site werkt niet goed op mobiel horizontaal
+  - Ik heb nu wel ul li's
+  - Al mijn afbeeldingen hebben nu een alt, waaronder de afbeeldingen met tekst
+  - Mijn tweede pagina heeft voor de bullied button een pauze knop nodig
+  - Ik heb geen skip link
+  - Ik heb light en dark mode voor de homepagina, ik heb de achtergrond image eruit gehaald
 
 </details>
 
@@ -178,6 +195,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  - Ik heb allebei mijn pagina's (nog niet helemaal af)
+  - Ik heb 3 style paginas
+  - Mijn header veranderd tijdens het scrollen
+  - Ik wil graag zeker weten of mijn code er goed uitziet (semantisch correct!)
 
 
   ### Agenda voor meeting
@@ -193,10 +214,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Mijn code is goedgekeurd
+  - Ik had niet echt veel vragen, ik wilde eerder weten of alles wat ik had er goed uitzag.
 
 </details>
 
@@ -210,17 +229,28 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/EindScreen1.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/EindScreen2.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/EindScreen3.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/EindScreen4.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/EindScreen5.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
+  - Ik heb heel veel flexbox gebruikt, ik heb dus daar nu heel veel inzicht/gevoel voor
+  - Ik weet hoe ik animaties kan maken, helaas had mijn websites niet heel veel
+  - Ik weet hoe ik de navigatie werkend kan maken voor mobiel dmv hamburgermenu
+  - Ik snap @media
+  - 
+
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
+  - Ik heb geen caroucel gemaakt
+  - Ik heb mijn site op mobiel en desktop werkend gemaakt, maar hij is niet helemaal responsive
+  - Ik had vaak eerst desktop, dan mobiel gedaan. Achteraf was het beter om andersom te doen..
 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
@@ -238,8 +268,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. ChatGPT
+  2. W3Schools, ik weet helaas niet meer waar ik het allemaal voor had gebruikt dus ik kan niet specifieker 
+  3. 
 
 </details>

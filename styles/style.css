@@ -271,7 +271,7 @@ footer>ul {
 
 
 /* DESKTOP */
-@media (width > 38em) {
+@media (width > 42em) {
 	body {
 		color: var(--nav-color)
 	}
