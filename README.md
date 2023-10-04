@@ -230,9 +230,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Je uitkomst - karakteristiek screenshots:
   <img src="readme-images/EindScreen1.png" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/EindScreen2.png" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/EindScreen3.png" width="375px" alt="uitomst opdracht 1">
-  <img src="readme-images/EindScreen4.png" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/EindScreen2.png" width="100px" alt="uitomst opdracht 1">
+  <img src="readme-images/EindScreen3.png" width="100px" alt="uitomst opdracht 1">
+  <img src="readme-images/EindScreen4.png" width="100px" alt="uitomst opdracht 1">
   <img src="readme-images/EindScreen5.png" width="375px" alt="uitomst opdracht 1">
 
 
@@ -244,7 +244,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - 
 
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  <img src="readme-images/Top1.png" width="375px" alt="top">
+  <img src="readme-images/Top2.png" width="375px" alt="top">
+  <img src="readme-images/EindScreen3.png" width="100px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
@@ -252,7 +254,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Ik heb mijn site op mobiel en desktop werkend gemaakt, maar hij is niet helemaal responsive
   - Ik had vaak eerst desktop, dan mobiel gedaan. Achteraf was het beter om andersom te doen..
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  <img src="readme-images/Bummer1.png" width="375px" alt="bummer">
 </details>
 
 
