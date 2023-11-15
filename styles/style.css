@@ -53,7 +53,6 @@
 	--bullied-h1: rgb(131, 197, 9);
 	--bullied-h2: rgb(10, 208, 248);
 	--bullied-header-background: rgb(6, 88, 84);
-	--focus-state:blue;
 }
 
 
@@ -81,8 +80,10 @@ body {
 
 
 *:focus {
-	border:solid;
-	border-color: var(--focus-state);
+	/* border:solid;
+	border-color: var(--focus-state); */
+	box-shadow:0 0 0 3px var(--nav-color);
+	outline:none;
 }
 
 header {
@@ -179,10 +180,10 @@ header nav ul li {
 
 header nav ul li a,
 header nav ul li a:visited {
-	color: var(--link-color)
+	color: var(--link-color);
 }
 
-header nav ul img {
+header nav ul li img {
 	height: auto;
 	width: 1.9em;
 }

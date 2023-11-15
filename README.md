@@ -258,7 +258,40 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 </details>
 
 
+## Feedback Eindgesprek
 
+<details>
+  <summary>Wat ik moet aanpassen</summary>
+
+  ###   Dit moet ik nog allemaal doen
+  - README aanvullen met plaatjes en meer uitwerken
+  - Eerste div in homepagina aanpassen naar een section met daarin een div
+  <img src="readme-images/codeDiv.png" width="375px" alt="Huidige code div 1">
+  - Het scrollbare article veranderen naar section en deze beter uitwerken
+  <img src="readme-images/codeDiv2.png" width="375px" alt="Huidige code div 2">
+  - Site meer responsive maken, iets meer media queries
+  - Light mode uitwerken
+  <img src="readme-images/codeLightmode.png" width="375px" alt="Huidige code light mode">
+  - Een h2 in alle sections, een onzichtbare h2 nog steeds laten lezen door screenreader
+  - Focus state verbeteren, het is nu een border ipv shadow
+  <img src="readme-images/oudeCodeFocus.png" width="375px" alt="Huidige code focus state">
+  <img src="readme-images/FocusScreen.png" width="375px" alt="Focus header logo">
+  <img src="readme-images/FocusScreen2.png" width="375px" alt="Focus header home">
+  - Focus state van de img links verbeteren
+  <img src="readme-images/FocusScreen3.png" width="375px" alt="Focus header image link">
+</details>
+
+
+## Herkansing veranderingen
+
+<details>
+
+  ### Stand van zaken
+  - Focus state is veranderd
+  <img src="readme-images/codeFocus.png" width="375px" alt="Nieuwe code focus state">
+  <img src="readme-images/NewFocusScreen.png" width="375px" alt="Nieuwe focus header logo">
+  
+</details>
 
 
 ## Bronnenlijst
@@ -271,7 +304,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. ChatGPT
-  2. W3Schools, ik weet helaas niet meer waar ik het allemaal voor had gebruikt dus ik kan niet specifieker 
+  2. W3Schools
   3. 
 
 </details>
