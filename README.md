@@ -314,10 +314,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Wat eerst section:nth-of-type(1) was is nu nth-of-type(2) en wat eerst section:nth-of-type(2) was is nu section:nth-of-type(4)
 
   - De 4e section heeft een onzichtbare h2 die gelezen kan worden door de screenreader
-  
+
   <img src="readme-images/codeOnzichtbareH2html.png" width="375px" alt="Code onzichtare h2 HTML">
   <img src="readme-images/codeOnzichtbareH2css.png" width="375px" alt="Code onzichtare h2 CSS">
 
+  - Home Icon erin gezet
+  <img src="readme-images/HomeIcon.png" width="375px" alt="Home Icon bij de titel">
+  <img src="readme-images/CodeHomeIcon.png" width="375px" alt="Code Home Icon">
+
+  - Meer media queries erin gezet
+  <img src="readme-images/codeMedia.png" width="375px" alt="Code Media queries">
+
+  - Light/Dark mode gescrapt. Mijn website heeft een achtergrond image en ik er niet iets moois van maken
 
 </details>
 
@@ -331,8 +339,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. ChatGPT
-  2. W3Schools
-  3. 
+  1. ChatGPT (scrollable section, start animatie, achtergrond images)
+  2. W3Schools (email forum, caroucel (nooit gelukt))
+  3. DLO Werkgroep 4 (flexbox/Media queries)
 
 </details>

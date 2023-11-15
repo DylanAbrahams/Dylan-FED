@@ -86,6 +86,7 @@ body {
 	outline:none;
 }
 
+
 header {
 	background-color: transparent;
 	min-height: 4em;
@@ -250,6 +251,7 @@ input[type="email"] {
 }
 
 input[type="submit"] {
+	font-family: "itim-latin";
 	background-color: var(--nav-color);
 	color: var(--default-color);
 	padding: 10px 20px;
@@ -271,8 +273,8 @@ footer>ul {
 }
 
 
-/* DESKTOP */
-@media (width > 42em) {
+
+@media (width > 46em) {
 	body {
 		color: var(--nav-color)
 	}
@@ -319,11 +321,31 @@ footer>ul {
 	}
 
 
+
 	footer>ul {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-evenly;
 		align-items: center;
 		width: 95vw;
+	}
+}
+
+@media (72em > width > 46em ) {
+	header nav ul:nth-of-type(2) li {
+		font-size: 1.25em;
+		margin:0;
+	}
+}
+
+@media (65em > width > 46em ) {
+	header nav ul:nth-of-type(2) li {
+		font-size: 1em;
+	}
+}
+
+@media (55em > width > 46em ) {
+	header nav ul:nth-of-type(2) li {
+		font-size: .75em;
 	}
 }

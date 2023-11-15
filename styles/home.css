@@ -79,6 +79,7 @@ main nav {
 
 main nav ul {
     display: flex;
+    flex-wrap:wrap;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -150,12 +151,13 @@ main>section:nth-of-type(3)> a {
     font-family: "itim-latin";
     display: block;
     background-color: var(--nav-color);
-    color: var(--link-color);
+    color: var(--default-color);
     padding: .5em 1em;
     text-align: center;
     border-radius: .5em;
     font-size: 1.5em;
     margin:0.5em;
+    
 }
 
 main>section:nth-of-type(3)> p {
@@ -191,7 +193,7 @@ main section:nth-of-type(4) ul li {
 
 
 main section:nth-of-type(4) img {
-    width: 20em;
+    width: 10em;
     height: auto;
     margin: 0em;
     padding: 0em;
@@ -200,8 +202,7 @@ main section:nth-of-type(4) img {
 
 
 
-/* DESKTOP */
-@media (width > 42em) {
+@media (width > 46em) {
 
     header nav ul li a,
     header nav ul li a:visited {
@@ -254,5 +255,47 @@ main section:nth-of-type(4) img {
     main>section:nth-of-type(3)>article p {
         font-size: 1.5em;
         opacity: 70%;
+    }
+
+    main section:nth-of-type(4) img {
+        width: 20em;
+    }
+}
+
+
+
+@media (70em > width > 46em ) {
+    main>section:nth-of-type(1) img {
+        width: 25em;
+        height: 21em;
+        margin: 3em;
+    }
+    
+	main>section:nth-of-type(3) {
+        width: 60%;
+    }
+
+    main>section:nth-of-type(3)>article p {
+        font-size: 1.25em;
+    }
+
+    main section:nth-of-type(4) img {
+        width: 15em;
+    }
+}
+
+@media (60em > width > 46em ) {
+    main>section:nth-of-type(1) img {
+        width: 20em;
+        height: 16em;
+        margin: 1em;
+    }
+
+	main>section:nth-of-type(3) {
+        width: 70%;
+    }
+
+    main>section:nth-of-type(3)>article p {
+        font-size: 1.25em;
     }
 }
