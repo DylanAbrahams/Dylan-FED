@@ -40,10 +40,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   #### Screenshot(s) van de eerste pagina (small screen): 
   Home
+
   <img src="readme-images/Homepagina.png" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Bullied Button
+
   <img src="readme-images/Bulliedpagina.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -283,7 +285,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <img src="readme-images/oudeCodeFocus.png" width="375px" alt="Huidige code focus state">
   <img src="readme-images/FocusScreen.png" width="375px" alt="Focus header logo">
   <img src="readme-images/FocusScreen2.png" width="375px" alt="Focus header home">
-  
+
   - Focus state van de img links verbeteren
   <img src="readme-images/FocusScreen3.png" width="375px" alt="Focus header image link">
 </details>
@@ -297,7 +299,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Focus state is veranderd
   <img src="readme-images/codeFocus.png" width="375px" alt="Nieuwe code focus state">
   <img src="readme-images/NewFocusScreen.png" width="375px" alt="Nieuwe focus header logo">
-  
+
+  - Ik heb de code van de homepagina veranderd. De eerste div met article is nu een section met een div erin, de h1 staat nu ook bovenaan
+    <img src="readme-images/codeHTMLSection1.png" width="375px" alt="HTML Section 1">
+    <img src="readme-images/codeCSSSection1.png" width="375px" alt="CSS Section 1">
+
+
+  - De tweede div is nu section:nth-of-type(3) en het is iets meer uitgewerkt. De start knop wordt niet meer meegescrollt. 
+    <img src="readme-images/scrollableSection.png" width="375px" alt="Scrollbare section">
+    <img src="readme-images/codeScrollableSection.png" width="375px" alt="Nieuwe code scrollbare section">
+
+  - Wat eerst section:nth-of-type(1) was is nu nth-of-type(2) en wat eerst section:nth-of-type(2) was is nu section:nth-of-type(4)
+
+  - De 4e section heeft een onzichtbare h2 die gelezen kan worden door de screenreader
+  <img src="readme-images/codeOnzichtbareH2html.png" width="375px" alt="Code onzichtare h2 HTML">
+  <img src="readme-images/codeOnzichtbareH2css.png" width="375px" alt="Code onzichtare h2 CSS">
+
+
 </details>
 
 
