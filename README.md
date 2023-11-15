@@ -325,7 +325,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   - Meer media queries erin gezet
   <img src="readme-images/codeMedia.png" width="375px" alt="Code Media queries">
 
-  - Light/Dark mode gescrapt. Mijn website heeft een achtergrond image en ik er niet iets moois van maken
+  - Light/Dark mode gescrapt. Mijn website heeft een achtergrond image en ik kon er niet iets moois van maken
 
 </details>
 
